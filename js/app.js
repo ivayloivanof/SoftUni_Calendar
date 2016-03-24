@@ -35,7 +35,7 @@ var app = app || {};
 				pageController.loadWelcomeUserPage(selector);
 			}
 		});
-
+		
 		this.get('#/register/', function () {
 			if (!sessionStorage['sessionId']) {
 				menuController.loadLoginMenu(menu);
@@ -129,3 +129,4 @@ var app = app || {};
 	router.run('#/');
 }());
 
+//2016-03-22T22:00:00

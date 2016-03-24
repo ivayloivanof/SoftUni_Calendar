@@ -1,3 +1,5 @@
+var app = app || {};
+
 app.lectureModel = (function() {
     function LectureModel(requester) {
         this.requester = requester;

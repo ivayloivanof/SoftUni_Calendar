@@ -28,8 +28,8 @@ app.userModel = (function() {
 	 * User register
 	 * @param data
 		{
-		  "username":"username",
-		  "password":"password"
+		  "username" : "username",
+		  "password" : "password"
 		}
 	 * @returns (JSON): {"username":"…","_id":"…","_kmd":{…,"authtoken":"authTokenValue"}}
 	 */
